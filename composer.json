@@ -37,9 +37,15 @@
             "homepage": "http://superdweebie.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tklever/doctrine-module"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "doctrine/doctrine-module": "0.8.*",
+        "doctrine/doctrine-module": "dev-suggest-validator",
         "doctrine/mongodb-odm": "~1.0.0-beta9@dev",
         "zendframework/zend-mvc": "2.*",
         "zendframework/zend-servicemanager": "2.*",

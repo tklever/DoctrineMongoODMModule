@@ -40,7 +40,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/tklever/doctrine-module"
+            "url": "git@github.com:tklever/DoctrineModule.git"
         }
     ],
     "require": {
